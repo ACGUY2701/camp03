@@ -1,0 +1,15 @@
+.note {
+  background-color: #012855;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  width: 25%;
+  cursor: pointer;
+}
+.note > input[type="text"] {
+  background-color: #012855;
+  padding: 10px;
+}
+#sticky-note-container {
+  height: 400px;
+}

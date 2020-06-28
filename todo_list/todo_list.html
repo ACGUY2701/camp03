@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODOリスト</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/cupertino/jquery-ui.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/i18n/jquery.ui.datepicker-ja.min.js"></script>
+    <link rel="stylesheet" href="css/todo.css" />
+    <link rel="stylesheet" href="css/husen.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>TODOリスト</h1>
+    </header>
+    <main>
+      <input type="text" id="datepicker" placeholder="DATE" />
+
+      <textarea id="memo" placeholder="TODO"></textarea>
+
+      <ul>
+        <li id="save">ADD NOTE</li>
+        <li id="clear">ALL CLEAR</li>
+      </ul>
+    </main>
+    <div id="list">
+      <!-- ここに追加データが挿入される -->
+    </div>
+
+    <script type="text/javascript" src="js/todo_list.js"></script>
+    <footer><small>Let's work</small></footer>
+  </body>
+</html>
